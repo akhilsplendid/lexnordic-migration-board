@@ -1,0 +1,1 @@
+"""LexNordic Migration Board backend."""

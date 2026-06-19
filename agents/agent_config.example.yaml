@@ -1,0 +1,31 @@
+intake:
+  agent_id_env: BAND_INTAKE_AGENT_ID
+  api_key_env: BAND_INTAKE_AGENT_API_KEY
+
+conflict_kyc:
+  agent_id_env: BAND_CONFLICT_KYC_AGENT_ID
+  api_key_env: BAND_CONFLICT_KYC_AGENT_API_KEY
+
+decision_parser:
+  agent_id_env: BAND_DECISION_PARSER_AGENT_ID
+  api_key_env: BAND_DECISION_PARSER_AGENT_API_KEY
+
+evidence:
+  agent_id_env: BAND_EVIDENCE_AGENT_ID
+  api_key_env: BAND_EVIDENCE_AGENT_API_KEY
+
+legal_source:
+  agent_id_env: BAND_LEGAL_SOURCE_AGENT_ID
+  api_key_env: BAND_LEGAL_SOURCE_AGENT_API_KEY
+
+risk:
+  agent_id_env: BAND_RISK_AGENT_ID
+  api_key_env: BAND_RISK_AGENT_API_KEY
+
+appeal_packet:
+  agent_id_env: BAND_APPEAL_PACKET_AGENT_ID
+  api_key_env: BAND_APPEAL_PACKET_AGENT_API_KEY
+
+partner_review:
+  agent_id_env: BAND_PARTNER_REVIEW_AGENT_ID
+  api_key_env: BAND_PARTNER_REVIEW_AGENT_API_KEY

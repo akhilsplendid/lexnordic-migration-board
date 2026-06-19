@@ -1,0 +1,33 @@
+[project]
+name = "lexnordic-server"
+version = "0.1.0"
+description = "FastAPI control plane for LexNordic Migration Board."
+requires-python = ">=3.11"
+dependencies = [
+  "beautifulsoup4>=4.12.3",
+  "fastapi>=0.115.6",
+  "httpx>=0.28.1",
+  "pdfplumber>=0.11.4",
+  "psycopg[binary]>=3.2.3",
+  "pydantic>=2.10.4",
+  "pydantic-settings>=2.7.0",
+  "pypdf>=5.1.0",
+  "python-dotenv>=1.0.1",
+  "python-multipart>=0.0.20",
+  "qdrant-client>=1.12.1",
+  "supabase>=2.10.0",
+  "uvicorn[standard]>=0.34.0",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.3.4",
+  "ruff>=0.8.4"
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B"]

@@ -1,0 +1,30 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.agent-context/
+.env
+.env.*
+!*.example
+agents/.venv/
+agents/agent_config.yaml
+agents/*.log
+*.local
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+server/.venv/
+
+# Office lock/temp files
+~$*
+
+# Public submission keeps the final product demo and final deck only.
+docs/submission/video/lexnordic-demo-draft.webm
+docs/submission/video/lexnordic-silent-demo.webm
+docs/submission/video/lexnordic-silent-demo.mp4
+docs/submission/video/lexnordic-silent-demo-poster.png
+docs/submission/deck/lexnordic-band-of-agents-submission.pptx
+
+# Local-only video generation helpers can read ignored credentials.
+scripts/create_product_demo_video.mjs
+scripts/create_silent_demo_video.mjs

@@ -1,0 +1,11 @@
+[project]
+name = "band-change-board-agents"
+version = "0.1.0"
+description = "Band remote-agent runners for the LexNordic Migration Board hackathon project."
+requires-python = ">=3.11"
+dependencies = [
+  "band-sdk>=0.1.0",
+  "httpx>=0.28.1",
+  "python-dotenv>=1.0.1",
+  "pyyaml>=6.0.2"
+]
