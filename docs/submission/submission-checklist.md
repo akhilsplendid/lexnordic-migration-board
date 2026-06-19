@@ -34,7 +34,7 @@ Hackathon page checked on 2026-06-18. Submissions close on 2026-06-19.
 - [x] Narrated video script: `docs/submission/narrated-demo-script.md`
 - [x] Slide Presentation: `docs/submission/deck/lexnordic-band-of-agents-submission-redone.pptx` regenerated as an 11-slide researched deck with founder story, official-rule framing, Band coordination proof, contained visuals, and editable text
 - [ ] Public video upload/link: requires explicit approval before publishing
-- [ ] Public GitHub Repository: requires explicit approval before publishing
+- [x] Public GitHub Repository: `https://github.com/akhilsplendid/lexnordic-migration-board`
 - [ ] Demo Application Platform: requires explicit approval before deployment
 - [ ] Application URL: requires explicit approval before deployment
 
@@ -65,7 +65,7 @@ Hackathon page checked on 2026-06-18. Submissions close on 2026-06-19.
 
 ## Approval-Only Actions
 
-- [ ] Create or publish public GitHub repository.
+- [x] Create or publish public GitHub repository.
 - [ ] Deploy a public application URL.
 - [ ] Upload video to a public platform.
 - [ ] Submit final lablab.ai form.

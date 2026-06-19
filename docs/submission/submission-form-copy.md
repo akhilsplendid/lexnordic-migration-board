@@ -42,7 +42,7 @@ Public upload/link pending explicit approval. The video is a silent product walk
 
 ## Public GitHub Repository
 
-Pending explicit approval to create or publish a public repository. Run the public-safety checklist before this is added to lablab.ai.
+https://github.com/akhilsplendid/lexnordic-migration-board
 
 ## Demo Application Platform
 
